@@ -8,6 +8,7 @@ a:link, a:visited {
 
 a:hover{
   color: green;
+  text-decoration: none;
 }
 
 footer {
@@ -15,6 +16,10 @@ footer {
   margin-bottom: 30px;
   text-align: center;
   font-size: 30px;
+}
+
+div#nav_buttons {
+  margin-bottom: 20px;
 }
 
 div#pic {
@@ -51,14 +56,27 @@ img {
   text-align: left;
 }
 
-.lead {
-  font-style: italic;
+.logo {
+  height: 80px;
+  width: 450px;
+}
+
+.post_pic {
+  transform: translateY(5%);
+  width: 350px;
+  height: 350px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
-  .display-3 {
-    font-size: 40pt;
+  .logo {
+    height: 70px;
+    width: 350px;
+  }
+
+  .post_pic {
+    transform: none;
+    margin-bottom: 20px;
   }
 }
 
