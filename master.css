@@ -1,0 +1,76 @@
+/* .container {
+  border: 1pt solid red;
+} */
+
+a:link, a:visited {
+  color: gray;
+}
+
+a:hover{
+  color: green;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+div#pic {
+  text-align: center;
+  /* border: 1pt solid red; */
+}
+
+i#insta{
+  margin-right: 15px;
+}
+
+i#twit{
+  margin-right: 15px;
+}
+
+i#tube{
+  margin-right: 15px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+.date {
+  font-size: 9pt;
+  font-style: italic;
+  color: gray;
+}
+
+.icon_caption {
+  text-align: left;
+}
+
+.lead {
+  font-style: italic;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .display-3 {
+    font-size: 40pt;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+}
+
+/* Medium devices (tablets, less than 992px */
+@media (max-width: 991px) {
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+
+}
